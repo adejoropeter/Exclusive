@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #444444;
+    /* background-color: coral; */
+    padding-top: 20px;
+}
+
+#head {
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: 90px;
+}
+
+.sub1, .sub2, .sub3, .sub4, .sub5, .sub6, .sub7 {
+    margin-right: 20px;
+    color: white;
+    font-weight: 900;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#head a:hover {
+    color: rgb(247, 20, 20);
+}
+
+.sub1 {
+    border-bottom: rgb(247, 20, 20) 2px solid;
+    padding: 12px;
+}
+
+a.sub1~a:hover {
+    border-bottom: 2px solid rgb(247, 20, 20);
+    padding: 12px;
+}
+
+img {
+    margin-top: 3%;
+    margin-left: 11.5%;
+}
+
+#second {
+    width: 75%;
+    height: auto;
+    background-color: white;
+    margin-left: 10.8%;
+    border-radius: 15px;
+}
+
+
+#second {
+    padding: 20px 10px 20px 10px;
+}
+
+#second form {
+    /* padding-left: 70%; */
+    position: absolute;
+    right: 25%;
+    top: 35%;
+}
+
+.david {
+    font-weight: 900;
+    color: #444;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*::selection{
+    background-color: rgb(247, 20, 20);
+    color: white;
+}
+
+.epo {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.smal {
+    color: #444;
+    opacity: 0.7;
+}
+
+.joe, a.joel {
+    color: rgb(8, 8, 253);
+}
+
+.tomiwa {
+    padding: 0 0 0 10px;
+}
+
+.tomiwa .date {
+    color: #444;
+    opacity: 0.5;
+}
+
+#second a {
+    text-decoration: none;
+}
+
+#second a:hover {
+    text-decoration: underline solid rgb(9, 9, 253);
+}
+
+label {
+    color: #444;
+}
+
+input[type="text"] {
+    outline-style: none;
+    height: 20px;
+}
+
+button {
+    padding: 3px;
+    text-align: center;
+    background-color: #444;
+    outline: none;
+    border-radius: 2px;
+    box-sizing: border-box;
+    appearance: none;
+    vertical-align: middle;
+    border-width: thin;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+.img img {
+    width: 50%;
+    margin: 0px;
+}
+
+.peter {
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+p img {
+    width: 600px;
+    height: 300px;
+    margin: 0px;
+}
+
+.down a, .get a {
+    text-transform: uppercase;
+    color: rgb(8, 8, 204);
+    opacity: 1;
+}
+
+.get {
+    font-weight: 800;
+    /* color: blue; */
+}
+
+a.hes:hover{
+    color: rgb(248, 66, 0);
+    text-decoration: none;
+}
